@@ -1,0 +1,133 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.main-menu ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	background: #6b8283;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	z-index: 10;
+}
+.main-menu li {
+	display: block;
+	margin: 0;
+}
+.main-menu a {
+	display: block;
+	padding: 10px 20px;
+}
+.main-menu a:hover {
+	background-color: #475e5f;
+}
+a.grey-btn {
+	display: block;
+	margin-top: 20px;
+	border: 2px solid #fff;
+}
+.header-title {
+	margin-top: 25%;
+}
+.sample-use-description {
+	margin-bottom: 40px;
+}
+.about-us-description {
+	margin-top: 10%;
+}
+.circular-photo {
+	margin: 10% 0;
+}
+.map-description {
+	margin-top: 10%;
+}
+.main-margin-title {
+	margin-top: 0;
+}
+.dwld-btn-wrap {
+	margin: 5% 0 5%;
+	text-align: center;
+}
+.download-title {
+	text-align: center;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.sample-use-bg{
+	display: block !important;
+	background: url("../img/hand-small.png") no-repeat 0 100%;
+	width: 211px;
+	height: 245px;
+}
+.about-us-description {
+	margin: 0;
+}
+.price-item {
+	border: none;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.top-phone {
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+.wide-item {
+	text-align: center;
+}
+.circular-photo {
+	width: 200px;
+	height: 200px;
+	margin: 40px 0;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+.top-phone {
+	display: block !important;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.main-menu ul {
+	display: block !important;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
